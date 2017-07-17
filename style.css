@@ -53,6 +53,7 @@ header	{
    			margin-left: auto;
     		margin-right: auto
 }
+
 #footer {
 		text-align: center;
 		background-color: #111111;
@@ -64,4 +65,17 @@ header	{
     	position: absolute;
     	left: 0;
   		width: 100%;
+}
+
+@media screen {
+    #footer {
+        text-align: center;
+		background-color: #111111;
+    	color: #eeeeee;
+    	height: 40px;  
+    	padding-top: 20px;
+    	margin-top: 20px; 
+    	position: bottom;
+  		width: 100%;
+    }
 }
